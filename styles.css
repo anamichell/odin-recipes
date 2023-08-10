@@ -1,5 +1,9 @@
 body {
-    background-color: orchid;;
+    background-color: plum;
+}
+.title,
+.recipe {
+    text-align: center;
 }
 
 .title {
@@ -8,6 +12,6 @@ body {
 }
 
 .recipe {
-    color: darkmagenta;
+    color: black;
 }
 
