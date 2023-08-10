@@ -1,6 +1,24 @@
-body {
-    background-color: plum;
+@font-face {
+    font-family: cuteFont;
+    src: url(fonts/cute.ttf);
 }
+
+@media screen and (min-width: 50rem) {
+    .outer-box-frame {
+        border: 1rem solid peachpuff;
+        margin: 5rem auto;
+        padding: 5rem;
+        max-width: 38rem; 
+    }
+    body {
+        background-color: pink;
+    }
+}
+.outer-box-frame {
+    background-color: beige;
+}
+
+
 .title,
 .recipe,
 .slogan {
@@ -8,17 +26,14 @@ body {
 }
 
 .title {
-    color: white;
-    font-family: 'Lucida Cursive', cursive, sans-serif;
+    color: palevioletred;
+    font-family: cuteFont, 'Lucida Cursive', cursive, sans-serif;
 }
 
 .slogan {
-    color: mistyrose
+    color: pink;
+    font-family: cuteFont, sans-serif;
 }
 
-.triple-choco {
-    background-color: brown;
-    color: beige
-}
 
 
