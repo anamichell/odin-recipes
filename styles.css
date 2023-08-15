@@ -5,17 +5,19 @@
 
 @media screen and (min-width: 50rem) {
     .outer-box-frame {
-        border: 1rem solid peachpuff;
+        border: 1rem solid white;
+        border-radius: 25px;
         margin: 5rem auto;
         padding: 5rem;
         max-width: 38rem; 
     }
     body {
-        background-color: pink;
+        background-color: darkolivegreen;
     }
 }
 .outer-box-frame {
     background-color: beige;
+    background-image: url("images/background.jpg");
 }
 
 
@@ -25,14 +27,28 @@
     text-align: center;
 }
 
+.recipe,
+.slogan {
+    display: block;
+}
+
 .title {
-    color: palevioletred;
+    color: white;
+    background: darkolivegreen;
+    border-radius: 300px;
+    padding: 10px;
+    display: block;
     font-family: cuteFont, 'Lucida Cursive', cursive, sans-serif;
 }
 
 .slogan {
     color: pink;
     font-family: cuteFont, sans-serif;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
 }
 
 
